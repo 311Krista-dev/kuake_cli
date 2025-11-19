@@ -83,11 +83,15 @@ chmod +x build.sh
 #### Linux
 
 ```bash
-# 1. 下载二进制文件（替换 {version} 为实际版本号）
-wget https://github.com/zhangjingwei/kuake_sdk/releases/latest/download/kuake-{version}-linux-amd64
+# 1. 下载二进制文件
+# 方式A：下载最新版本
+wget https://github.com/zhangjingwei/kuake_sdk/releases/latest/download/kuake-v1.3.0-linux-amd64
+
+# 方式B：下载指定版本
+# wget https://github.com/zhangjingwei/kuake_sdk/releases/download/v1.3.0/kuake-v1.3.0-linux-amd64
 
 # 2. 添加执行权限
-chmod +x kuake-{version}-linux-amd64
+chmod +x kuake-v1.3.0-linux-amd64
 
 # 3. 下载配置文件示例（可选）
 wget https://github.com/zhangjingwei/kuake_sdk/releases/latest/download/config.json
@@ -96,23 +100,27 @@ wget https://github.com/zhangjingwei/kuake_sdk/releases/latest/download/config.j
 # 使用文本编辑器打开 config.json，替换示例值
 
 # 5. 使用方式（方式A：直接使用）
-./kuake-{version}-linux-amd64 user
+./kuake-v1.3.0-linux-amd64 user
 
 # 5. 使用方式（方式B：移动到 PATH，推荐）
-sudo mv kuake-{version}-linux-amd64 /usr/local/bin/kuake
+sudo mv kuake-v1.3.0-linux-amd64 /usr/local/bin/kuake
 kuake user
 ```
 
 #### macOS
 
 ```bash
-# 1. 下载二进制文件（替换 {version} 为实际版本号）
-wget https://github.com/zhangjingwei/kuake_sdk/releases/latest/download/kuake-{version}-darwin-amd64
+# 1. 下载二进制文件
+# 方式A：下载最新版本
+wget https://github.com/zhangjingwei/kuake_sdk/releases/latest/download/kuake-v1.3.0-darwin-amd64
 # 或使用 curl
-curl -L -o kuake-{version}-darwin-amd64 https://github.com/zhangjingwei/kuake_sdk/releases/latest/download/kuake-{version}-darwin-amd64
+curl -L -o kuake-v1.3.0-darwin-amd64 https://github.com/zhangjingwei/kuake_sdk/releases/latest/download/kuake-v1.3.0-darwin-amd64
+
+# 方式B：下载指定版本
+# wget https://github.com/zhangjingwei/kuake_sdk/releases/download/v1.3.0/kuake-v1.3.0-darwin-amd64
 
 # 2. 添加执行权限
-chmod +x kuake-{version}-darwin-amd64
+chmod +x kuake-v1.3.0-darwin-amd64
 
 # 3. 下载配置文件示例（可选）
 wget https://github.com/zhangjingwei/kuake_sdk/releases/latest/download/config.json
@@ -123,19 +131,22 @@ curl -L -o config.json https://github.com/zhangjingwei/kuake_sdk/releases/latest
 # 使用文本编辑器打开 config.json，替换示例值
 
 # 5. 使用方式（方式A：直接使用）
-./kuake-{version}-darwin-amd64 user
+./kuake-v1.3.0-darwin-amd64 user
 
 # 5. 使用方式（方式B：移动到 PATH，推荐）
-sudo mv kuake-{version}-darwin-amd64 /usr/local/bin/kuake
+sudo mv kuake-v1.3.0-darwin-amd64 /usr/local/bin/kuake
 kuake user
 ```
 
 #### Windows
 
 ```powershell
-# 1. 下载二进制文件（替换 {version} 为实际版本号）
-# 使用浏览器访问 Releases 页面下载，或使用 PowerShell：
-Invoke-WebRequest -Uri "https://github.com/zhangjingwei/kuake_sdk/releases/latest/download/kuake-{version}-windows-amd64.exe" -OutFile "kuake-{version}-windows-amd64.exe"
+# 1. 下载二进制文件
+# 方式A：下载最新版本
+Invoke-WebRequest -Uri "https://github.com/zhangjingwei/kuake_sdk/releases/latest/download/kuake-v1.3.0-windows-amd64.exe" -OutFile "kuake-v1.3.0-windows-amd64.exe"
+
+# 方式B：下载指定版本
+# Invoke-WebRequest -Uri "https://github.com/zhangjingwei/kuake_sdk/releases/download/v1.3.0/kuake-v1.3.0-windows-amd64.exe" -OutFile "kuake-v1.3.0-windows-amd64.exe"
 
 # 2. 下载配置文件示例（可选）
 Invoke-WebRequest -Uri "https://github.com/zhangjingwei/kuake_sdk/releases/latest/download/config.json" -OutFile "config.json"
@@ -144,7 +155,7 @@ Invoke-WebRequest -Uri "https://github.com/zhangjingwei/kuake_sdk/releases/lates
 # 使用文本编辑器打开 config.json，替换示例值
 
 # 4. 使用方式（在 PowerShell 或 CMD 中）
-.\kuake-{version}-windows-amd64.exe user
+.\kuake-v1.3.0-windows-amd64.exe user
 ```
 
 ## 🚀 快速开始
@@ -180,24 +191,17 @@ Invoke-WebRequest -Uri "https://github.com/zhangjingwei/kuake_sdk/releases/lates
 
 ```bash
 # 获取用户信息
-./kuake-{version}-{os}-{arch} user
+./kuake-v1.3.0-linux-amd64 user
 
-# 上传文件（注意：路径参数必须用引号包裹）
-./kuake-{version}-{os}-{arch} upload "file.txt" "/file.txt"
+# 上传文件
+./kuake-v1.3.0-linux-amd64 upload "file.txt" "/file.txt"
 
 # 列出目录
-./kuake-{version}-{os}-{arch} list "/"
+./kuake-v1.3.0-linux-amd64 list "/"
 
 # 查看帮助
-./kuake-{version}-{os}-{arch} help
+./kuake-v1.3.0-linux-amd64 help
 ```
-
-**注意**：
-- 文件名中的 `{version}` 需要替换为实际版本号（如 `v1.3.0` → `kuake-v1.3.0-linux-amd64`）
-- 文件名中的 `{os}` 需要替换为实际操作系统（`linux`、`darwin` 或 `windows`）
-- 文件名中的 `{arch}` 需要替换为实际架构（通常是 `amd64`）
-- Windows 用户需要添加 `.exe` 扩展名
-- 所有路径参数必须用引号包裹（包含空格或特殊字符时）
 
 ## ⚙️ 配置说明
 
