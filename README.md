@@ -1,4 +1,4 @@
-# Kuake SDK
+# Kuake CLI
 
 [![License](https://img.shields.io/badge/License-AGPL--3.0-green.svg)](LICENSE)
 
